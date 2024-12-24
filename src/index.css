@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 96%; /* Off-white background */
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 210 100% 50%; /* Blue */
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 0 100% 50%; /* Red */
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 142 76% 36%; /* Green */
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+  }
+}
+
+/* Apply off-white background to all pages */
+body {
+  @apply bg-[#f5f5f5];
+}
+
+/* Custom text colors */
+.text-primary-blue {
+  @apply text-blue-600;
+}
+
+.text-primary-red {
+  @apply text-red-600;
+}
+
+.text-primary-green {
+  @apply text-green-600;
+}
